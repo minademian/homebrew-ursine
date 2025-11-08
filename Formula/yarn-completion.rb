@@ -1,5 +1,5 @@
 # Formula/yarn-completion.rb
-class YarnCompletion < Formula
+class YarnShellCompletion < Formula
   desc "Bash and Zsh completion for Yarn 4+"
   homepage "https://github.com/ursine-code/yarn-shell-completion"
   url "https://github.com/ursine-code/yarn-shell-completion/archive/v1.0.0.tar.gz"
