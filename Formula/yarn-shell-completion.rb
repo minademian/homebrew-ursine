@@ -2,8 +2,8 @@
 class YarnShellCompletion < Formula
   desc "Bash and Zsh completion for Yarn 4+"
   homepage "https://github.com/ursine-code/yarn-shell-completion"
-  url "https://github.com/ursine-code/yarn-shell-completion/archive/refs/tags/v1.0.3.tar.gz"
-  sha256 "0f16d38085d66d48e6a1fefa4550693a4e402410721bdbc8132781fcf9385da3"
+  url "https://github.com/ursine-code/yarn-shell-completion/archive/refs/tags/v1.0.4.tar.gz"
+  sha256 "17ed8c85c55fc362dbf5f0930347004f9a18645a9bdc342f1e4520855da6e858"
   license "MIT"
   
   def install
