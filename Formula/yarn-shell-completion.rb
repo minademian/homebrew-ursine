@@ -6,7 +6,7 @@ class YarnShellCompletion < Formula
   sha256 "9e0e5422394071cec29ed257ce3da49f1f7028a6ed6f55f24a1aafd5b5784048"
   license "MIT"
   bottle do
-    root_url "https://github.com/minademian/homebrew-ursine/releases/download/v1.0.9"
+    root_url "https://github.com/minademian/homebrew-ursine/releases/download/v1.0.7"
     sha256 cellar: :any_skip_relocation, sequoia: "9a45a9f10877c53f6abc2dfa9d51d8a4fb8e7fe6bd7aafdb3db4441ba5c18cda"
   end
 

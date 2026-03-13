@@ -4,7 +4,7 @@ VERSION := $(subst v,,$(FORMULA_VERSION))
 BOTTLE_FILE := yarn-shell-completion--$(VERSION).sequoia.bottle.tar.gz
 REPO := minademian/homebrew-ursine
 SOURCE_REPO := ursine-code/yarn-shell-completion
-TAG := $(shell git describe --tags --abbrev=0 2>/dev/null || echo "v0.0.0")
+TAG := $(FORMULA_VERSION)
 BUILD_DIR := /tmp/bottle-build
 
 .PHONY: bottle upload update-formula release clean
