@@ -1,7 +1,7 @@
 FORMULA := Formula/yarn-shell-completion.rb
 FORMULA_VERSION := $(shell grep -oE 'v[0-9]+\.[0-9]+\.[0-9]+' $(FORMULA) | head -1)
 VERSION := $(subst v,,$(FORMULA_VERSION))
-BOTTLE_FILE := yarn-shell-completion--$(VERSION).sequoia.bottle.tar.gz
+BOTTLE_FILE := yarn-shell-completion-$(VERSION).sequoia.bottle.tar.gz
 REPO := minademian/homebrew-ursine
 SOURCE_REPO := ursine-code/yarn-shell-completion
 TAG := $(FORMULA_VERSION)
